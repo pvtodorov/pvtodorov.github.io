@@ -3,7 +3,7 @@
 Personal site. Built with [Hugo](https://gohugo.io), hosted on GitHub Pages,
 rebuilt by GitHub Actions on every push to `main`.
 
-Live at <https://pvtodorov.github.io>.
+Live at <https://pvtodorov.com>.
 
 ## Writing
 
