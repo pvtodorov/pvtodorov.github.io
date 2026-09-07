@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section class="listing">
+  {{ range first 50 (where site.RegularPages "Section" "notes") }}
+  <article class="post-listing">
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <div class="meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+    </div>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+  </article>
+  {{ else }}
+  <p class="empty">Nothing published yet.</p>
+  {{ end }}
+</section>
+{{ end }}

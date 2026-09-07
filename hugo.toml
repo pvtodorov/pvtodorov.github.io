@@ -1,0 +1,32 @@
+baseURL = "https://pvtodorov.github.io/"
+locale = "en-us"
+title = "Petar Todorov"
+
+enableRobotsTXT = true
+enableEmoji = true
+
+# Taxonomies are off on purpose: publish five to ten pieces before adding
+# tags. Delete these two lines to turn tags/categories back on.
+[taxonomies]
+
+[params]
+  # Not shown on the page (no tagline in the header) -- this only fills the
+  # <meta name="description"> tag for search results and link previews.
+  description = "Notes by Petar Todorov."
+  author = "Petar Todorov"
+
+# No [permalinks] block on purpose. Hugo's default builds the URL from the
+# filename (content/notes/foo.md -> /notes/foo/), so a URL only changes when
+# you rename the file. Add `slug: "some-url"` to a post's front matter to
+# override it for that post.
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    style = "github"
+    noClasses = true
+    lineNos = false
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
