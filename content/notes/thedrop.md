@@ -5,7 +5,7 @@ description: "The Drop"
 draft: false
 ---
 
-# Ripples I found interesting at The Drop 2026
+# Ripples I'm looking forward to at The Drop 2026
 
 I'm heading to the Drop this year and looking forward to connecting with founders, investors, and other key players in the deeptech ecosystem who focus on planetary health and resilience. Here are some of the roundtables and side-events I found to be interesting (will be a difficult choice to pick which ones to attend!)
 
